@@ -39,15 +39,15 @@ public class ListActivity extends Activity {
         //设置为垂直布局，这也是默认的
 //        layoutManager.setOrientation(OrientationHelper.VERTICAL);
         //设置Adapter
-        recycleListView.setAdapter( myRecyclerAdapter);
+        recycleListView.setAdapter(myRecyclerAdapter);
         //设置增加或删除条目的动画
         recycleListView.setItemAnimator(new DefaultItemAnimator());
 
     }
 
     private void initData() {
-        mData=new ArrayList<>();
-        for (int i = 0; i < 50; i++) {
+        mData = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
             mData.add("item" + String.valueOf(i));
         }
     }

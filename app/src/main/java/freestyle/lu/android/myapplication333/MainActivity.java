@@ -34,5 +34,11 @@ public class MainActivity extends AppCompatActivity {
 //                    startActivity(goList);
             }
         });
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }
