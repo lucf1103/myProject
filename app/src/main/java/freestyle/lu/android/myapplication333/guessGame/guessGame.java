@@ -37,6 +37,7 @@ public class guessGame extends Activity {
 
     private void initView() {
         numberEdit = findViewById(R.id.edit_enterNumber);
+        numberEdit.setText("4321");
         recycleListView = findViewById(R.id.recycle_list);
         //设置布局管理器
         recycleListView.setLayoutManager(new LinearLayoutManager(this));
@@ -75,7 +76,7 @@ public class guessGame extends Activity {
             myRecyclerAdapter = new MyRecyclerAdapter(this, mData);
             recycleListView.setAdapter(myRecyclerAdapter);
         }
-
+//hhhhh测试
     }
 
     public static void main(String[] args) {
